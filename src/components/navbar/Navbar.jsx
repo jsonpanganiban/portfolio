@@ -1,11 +1,11 @@
 import "../../global.scss"
-import "./topbar.scss"
+import "./navbar.scss"
 import EmailSharpIcon from '@material-ui/icons/EmailSharp';
 import PersonSharpIcon from '@material-ui/icons/PersonSharp';
 
-export default function Topbar({ menuOpen, setMenuOpen }) {
+export default function Navbar({ menuOpen, setMenuOpen }) {
   return (
-    <div className={"topbar " + (menuOpen && "active")}>
+    <div className={"navbar " + (menuOpen && "active")}>
       <div className="wrapper">
 
         <div className="left">
